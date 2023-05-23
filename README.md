@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# CRUD React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta es una aplicación CRUD (Create, Read, Update, Delete) desarrollada con React que permite gestionar empleados.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- Lista los empleados existentes.
+- Permite agregar nuevos empleados.
+- Permite editar la información de los empleados existentes.
+- Permite eliminar empleados.
 
-### `npm start`
+## Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js
+- Navegador web moderno
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+1. Clona este repositorio:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```shell
+git clone https://github.com/gustabin/crud_react_API.git
+```
 
-### `npm run build`
+2. Navega hasta el directorio del proyecto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```shell
+cd crud_react_API
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Instala las dependencias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```shell
+npm install
+```
 
-### `npm run eject`
+4. Inicia la aplicación:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```shell
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Abre tu navegador web y accede a `http://localhost:3000` para ver la aplicación en funcionamiento.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Estructura del proyecto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+El proyecto se divide en los siguientes componentes:
 
-## Learn More
+- `Navbar`: Barra de navegación de la aplicación.
+- `EmployeeList`: Componente que muestra la lista de empleados.
+- `EmployeeItem`: Componente que representa un empleado individual en la lista.
+- `EmployeeForm`: Componente para agregar o editar la información de un empleado.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Además, se proporciona un archivo `EmployeeServer.js` que contiene funciones para interactuar con la API de empleados.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Personalización
 
-### Code Splitting
+Puedes personalizar la apariencia de la aplicación modificando el archivo `index.css`. Este archivo contiene estilos CSS para el fondo, la fuente y algunos elementos específicos de la aplicación.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contribuciones
 
-### Analyzing the Bundle Size
+Las contribuciones son bienvenidas. Si deseas mejorar esta aplicación, sigue los siguientes pasos:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Haz un fork del repositorio.
+2. Crea una rama para tu nueva funcionalidad (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza los cambios necesarios y realiza commit de tus cambios (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Sube tus cambios a tu fork (`git push origin feature/nueva-funcionalidad`).
+5. Abre una pull request en este repositorio.
 
-### Making a Progressive Web App
+## Licencia
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Este proyecto está licenciado bajo [MIT License](https://github.com/gustabin/crud_react_API/blob/main/LICENSE).
+```
 
-### Advanced Configuration
+Puedes utilizar este contenido como base y ajustarlo según tus necesidades. Recuerda incluir cualquier instrucción adicional, dependencias o requisitos específicos que sean relevantes para tu proyecto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desarrollado por el Ing. Gustavo Arias. Todos los derechos reservados © 2023.
